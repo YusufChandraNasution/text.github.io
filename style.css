@@ -1,0 +1,105 @@
+.jumbotron {
+    background-image: url(background/1.png);
+    background-size: cover;
+    position: relative;
+}
+.border img:first-child{
+    width: 180px;
+    position: absolute;
+    right: 0;
+}
+.border img:nth-child(2){
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.border img:nth-child(3){
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.border img:nth-child(4){
+    width: 180px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* end Border */
+
+/* Nama */
+.frame img{
+    width: 560px;
+}
+.frame h2{
+    position: relative;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    position: relative;
+    top: -250px;
+}
+.text p:first-child{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.text p:last-child{
+    margin-bottom: 0;
+    font-family: 'Courgette', cursive;
+}
+/* end nama */
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px){
+    .jumbotron {
+        background-image: url(background/1.png);
+        background-size: cover;height: 740px;
+        position: relative;
+    }
+    .border img:first-child{
+        width: 170px;
+        position: absolute;
+    }
+    .border img:nth-child(2){
+        width: 170px;
+        position: absolute;
+    }
+    .border img:nth-child(3){
+        width: 100px;
+        position: absolute;
+    }
+    .border img:nth-child(4){
+        width: 100px;
+        position: absolute;
+    }
+    .frame{
+        position: relative;
+        top: 180px;
+    }
+    .frame .rounded{
+        position: relative;
+        width: 330px;
+        top: 55px;
+        right: 10px;
+    }
+    .text{
+        position: relative;
+        top: 75px;
+    }
+    .frame h2{
+        position: relative;
+        bottom: -50px;
+    }
+    .text p:first-child{
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+    }
+    .text p:last-child{
+        margin-bottom: 0;
+        font-family: 'Courgette', cursive;
+    }
+}
