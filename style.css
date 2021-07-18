@@ -1,5 +1,4 @@
-.jumbotron {
-    background-image: url(background/1.png);
+.jumbotron1 {
     background-size: cover;
     position: relative;
 }
@@ -55,8 +54,7 @@
 
 /* Mobile Device */
 @media screen and (max-width: 576px){
-    .jumbotron {
-        background-image: url(background/1.png);
+    .jumbotron1 {
         background-size: cover;height: 740px;
         position: relative;
     }
